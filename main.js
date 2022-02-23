@@ -31,3 +31,8 @@
     När ett köp har genomförts ska saldot uppdateras i Firebase
 */
 //#endregion instructions
+//#region SERVER
+
+//En tom firebase just nu
+const serverUrl  = "https://console.firebase.google.com/u/0/project/mproject3-onlineshop/database/mproject3-onlineshop-default-rtdb/data";
+//#endregion SERVER
