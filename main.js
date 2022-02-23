@@ -33,9 +33,8 @@
 //#endregion instructions
 //#region SERVER
 
-//En tom firebase just nu
-const serverUrl  = "https://mproject3-onlineshop-default-rtdb.europe-west1.firebasedatabase.app/.json";
-//#endregion SERVER
+
 //#region PLACEHOLDERREGION
-import { gamingComputer } from "./modules/products";
+//Chain: main.js > fetch.js > product.js
+import{fetch} from "./modules/fetch";
 //#endregion PLACEHOLDERREGION

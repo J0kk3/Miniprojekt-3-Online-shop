@@ -50,4 +50,4 @@ const AsusROG = new gamingComputer(
     this.img, //placeholder
     this.quantity); //placeholder
 
-    export{gamingComputer};
+export{gamingComputer};
