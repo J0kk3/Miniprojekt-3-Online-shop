@@ -49,3 +49,5 @@ const AsusROG = new gamingComputer(
     'Med Asus ROG Zephyrus G14 14" bärbar dator för gaming får du en solid spelmaskin i en superkompakt formfaktor som kommer redo för att stödja din spelpassion under en lång tid med otrolig grafik och lång batteritid.',
     this.img, //placeholder
     this.quantity); //placeholder
+
+    export{gamingComputer};
