@@ -34,5 +34,5 @@
 //#region SERVER
 
 //En tom firebase just nu
-const serverUrl  = "https://console.firebase.google.com/u/0/project/mproject3-onlineshop/database/mproject3-onlineshop-default-rtdb/data.json";
+const serverUrl  = "https://mproject3-onlineshop-default-rtdb.europe-west1.firebasedatabase.app/.json";
 //#endregion SERVER
