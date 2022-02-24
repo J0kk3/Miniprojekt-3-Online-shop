@@ -36,5 +36,5 @@
 
 //#region PLACEHOLDERREGION
 //Chain: main.js > fetch.js > product.js
-import{fetch} from "./modules/fetch";
+import{fetchTheShit} from "./modules/fetch";
 //#endregion PLACEHOLDERREGION
