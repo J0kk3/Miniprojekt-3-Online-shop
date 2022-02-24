@@ -31,7 +31,6 @@
     När ett köp har genomförts ska saldot uppdateras i Firebase
 */
 //#endregion instructions
-//#region PLACEHOLDERREGION
+
 //Chain: main.js > fetch.js > product.js
 import{fetchTheShit} from "./modules/fetch.js";
-//#endregion PLACEHOLDERREGION

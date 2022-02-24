@@ -7,13 +7,9 @@ class gamingComputer {
         // this.img = img;
         this.quantity = quantity;
     }
-    getQuantity()
-    {
-        
-    }
-
 }
-
+//behövs detta, då det finns på servern?
+//#region firebaseStuff
 const hpOmen = new gamingComputer(
     'HP Omen',
     6999,
@@ -53,5 +49,5 @@ const AsusROG = new gamingComputer(
     'Med Asus ROG Zephyrus G14 14" bärbar dator för gaming får du en solid spelmaskin i en superkompakt formfaktor som kommer redo för att stödja din spelpassion under en lång tid med otrolig grafik och lång batteritid.',
     7
     );
-
+//#endregion firebaseStuff
 export{gamingComputer};
