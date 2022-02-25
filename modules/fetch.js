@@ -46,12 +46,16 @@ function fetchTheShit()
                         howMany.setAttribute("min", "0");
                         div.appendChild(howMany)
 
-                        const cart = document.createElement("button");
+                        const cartBtn = document.createElement("button");
                         const btnText = document.createTextNode("Lägg i varukorgen");
-                        cart.appendChild(btnText);
-                        div.appendChild(cart);
-
+                        cartBtn.appendChild(btnText);
+                        div.appendChild(cartBtn);
                     }
+
+                    for(i=0; i<4; i++){
+                        cartBtn.classList.add("btn"[i]);
+                    }
+                    
 })};
 fetchTheShit();
 export{fetchTheShit};
