@@ -52,6 +52,8 @@ nav a
 {
     grid-row: 2/3;
     grid-column: 1/3;
+
+    
 }
 /* footer
 {
@@ -60,3 +62,34 @@ nav a
     grid-column: 1/2;
     background: #D5BFBF;
 } */
+
+
+button{
+    font-weight: bold;
+    font-size: larger;
+    background-color: lightblue;
+    color: blue;
+    border-radius: 10em;
+    padding: 1rem;
+}
+button:hover{
+    background-color: blue;
+    color: lightblue;
+}
+button:active{
+    color: white;
+    background-color: black;
+}
+
+div{
+    margin: 3rem;
+    padding: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: solid 3px blue;
+}
+
+input {
+    margin: 1rem;
+    font-size: larger;
+}
