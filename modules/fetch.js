@@ -14,7 +14,7 @@ function fetchTheShit()
                 for(const i in d)
                     {
                         const productsDiv = document.querySelector(".products");
-                        console.log(i, d[i]);
+                        // console.log(i, d[i]);
                         //create the div-container for the products and append it to the .products-div
                         const div = document.createElement("div");
                         productsDiv.appendChild(div);
@@ -57,5 +57,4 @@ function fetchTheShit()
 
                     
 })};
-fetchTheShit();
 export{fetchTheShit};

@@ -34,10 +34,25 @@
 //#region PLACEHOLDERREGION
 //Chain: main.js > fetch.js > product.js
 import{fetchTheShit} from "./modules/fetch.js";
-import { cartFunction } from "./modules/cart.js";
+// import { cartFunction } from "./modules/cart.js";
+fetchTheShit()
+// const hpOmenBtn = document.querySelectorAll("button");
 
+// hpOmenBtn.addEventListener("click", function cartFunction(){
+// document.getElementById("hpOmen").innerHTML = "hallå ya africa, tell me haw ya doin"
+// })
 
-hpOmenBtn.addEventListener("click", function cartFunction(){})
+// hpOmenBtn.addEventListener("click", cartFunction);
+// function cartFunction(){
+//     document.getElementById("hpOmen").innerHTML = "hallå ya africa, tell me haw ya doin"
+// }
+
+const element = document.querySelector(".a");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("hpOmen").innerHTML = "Hello World";
+}
 
 
 //#endregion PLACEHOLDERREGION
