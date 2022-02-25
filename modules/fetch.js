@@ -48,13 +48,13 @@ function fetchTheShit()
 
                         const cartBtn = document.createElement("button");
                         const btnText = document.createTextNode("Lägg i varukorgen");
+                        cartBtn.classList.add("abcde"[i]);
                         cartBtn.appendChild(btnText);
                         div.appendChild(cartBtn);
-                    }
+                        }
+    
+                    
 
-                    for(i=0; i<4; i++){
-                        cartBtn.classList.add("btn"[i]);
-                    }
                     
 })};
 fetchTheShit();

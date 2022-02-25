@@ -34,4 +34,11 @@
 //#region PLACEHOLDERREGION
 //Chain: main.js > fetch.js > product.js
 import{fetchTheShit} from "./modules/fetch.js";
+import { cartFunction } from "./modules/cart.js";
+
+
+hpOmenBtn.addEventListener("click", function cartFunction(){})
+
+
 //#endregion PLACEHOLDERREGION
+

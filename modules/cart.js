@@ -1,6 +1,10 @@
 // Functions to handle the cart
 import { fetchTheShit } from "./fetch.js";
 
-for(i=0; i<4; i++){
-    cartBtn.classList.add("btn"[i]);
+const hpOmenBtn = document.querySelector(".a");
+
+function cartFunction(){
+    document.getElementById("hpOmen").innerHTML = "hallå ya africa, tell me haw ya doin"
 }
+
+export {cartFunction}
