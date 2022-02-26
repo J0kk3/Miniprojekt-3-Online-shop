@@ -1,4 +1,4 @@
-import { gamingComputer } from "../modules/products.js";
+import { gamingComputer } from "./modules/products.js";
 
 const serverUrl  = "https://mproject3-onlineshop-default-rtdb.europe-west1.firebasedatabase.app/.json";
 
@@ -10,7 +10,7 @@ function fetchTheShit()
                 return r.json();
             })
         .then(d=>
-            {
+            {                
                 for(const i in d)
                     {
                         const productsDiv = document.querySelector(".products");
@@ -34,6 +34,7 @@ function fetchTheShit()
                         div.appendChild(img);
                         img.src = d[i].img;
                     }
+                    return d;
 })};
 fetchTheShit();
 export{fetchTheShit};
