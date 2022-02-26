@@ -33,9 +33,15 @@
 //#endregion instructions
 //#region PLACEHOLDERREGION
 //Chain: main.js > fetch.js > product.js
-import{fetchTheShit} from "./modules/fetch.js";
-import { cartFunction } from "./modules/cart.js";
-fetchTheShit()
+// import{fetchTheShit} from "./modules/fetch.js";
+// import { cartFunction } from "./modules/cart.js";
+import {fetchUp} from "./modules/products.js";
+
+// const knappfan = document.querySelector(".buttonz99");
+// knappfan.addEventListener("click", fetchUp())
+
+fetchUp()
+// fetchTheShit()
 // const hpOmenBtn = document.querySelectorAll("button");
 
 // hpOmenBtn.addEventListener("click", function cartFunction(){
@@ -47,11 +53,12 @@ fetchTheShit()
 //     document.getElementById("hpOmen").innerHTML = "hallå ya africa, tell me haw ya doin"
 // }
 
-const extraBtn = document.querySelector(".bennyButt");
-extraBtn.addEventListener("click", cartFunction);
+// const testBtn = document.querySelector(".buttonz0");
+// testBtn.addEventListener("click", cartFunction);
 
-const hpOmenBtn = document.querySelector(".theButton0");
-hpOmenBtn.addEventListener("click", cartFunction);
+
+// const hpOmenBtn = document.getElementById("buttonz0")
+// hpOmenBtn.addEventListener("click", cartFunctionFetch);
 
 
 //#endregion PLACEHOLDERREGION

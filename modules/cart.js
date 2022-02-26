@@ -1,5 +1,5 @@
 // Functions to handle the cart
-import { fetchTheShit } from "./fetch.js";
+// import { fetchTheShit } from "./fetch.js";
 
 
 function cartFunction(){
