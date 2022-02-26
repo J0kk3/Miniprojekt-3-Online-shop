@@ -34,7 +34,7 @@
 //#region PLACEHOLDERREGION
 //Chain: main.js > fetch.js > product.js
 import{fetchTheShit} from "./modules/fetch.js";
-// import { cartFunction } from "./modules/cart.js";
+import { cartFunction } from "./modules/cart.js";
 fetchTheShit()
 // const hpOmenBtn = document.querySelectorAll("button");
 
@@ -47,12 +47,11 @@ fetchTheShit()
 //     document.getElementById("hpOmen").innerHTML = "hallå ya africa, tell me haw ya doin"
 // }
 
-const element = document.querySelector(".a");
-element.addEventListener("click", myFunction);
+const extraBtn = document.querySelector(".bennyButt");
+extraBtn.addEventListener("click", cartFunction);
 
-function myFunction() {
-  document.getElementById("hpOmen").innerHTML = "Hello World";
-}
+const hpOmenBtn = document.querySelector(".theButton0");
+hpOmenBtn.addEventListener("click", cartFunction);
 
 
 //#endregion PLACEHOLDERREGION

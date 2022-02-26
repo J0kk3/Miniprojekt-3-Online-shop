@@ -45,14 +45,22 @@ function fetchTheShit()
                         howMany.setAttribute("size", "6");
                         howMany.setAttribute("min", "0");
                         div.appendChild(howMany)
+                        howMany.classList.add("WASSAA"+[i])
 
                         const cartBtn = document.createElement("button");
                         const btnText = document.createTextNode("Lägg i varukorgen");
-                        cartBtn.classList.add("abcde"[i]);
                         cartBtn.appendChild(btnText);
                         div.appendChild(cartBtn);
+                        cartBtn.classList.add("theButton"+[i])
                         }
-    
+                        // for(let i=0; i<4; i++){
+                        //     const cartBtn = document.createElement("button");
+                        //     const btnText = document.createTextNode("Lägg till i varuköööööööööörgen");
+                        //     const diven = document.querySelectorAll(".cart")
+                        //     cartBtn.classList.add("buttonen"[i])
+                        //     cartBtn.appendChild(btnText);
+                        //     diven.appendChild(cartBtn)
+                        // }
                     
 
                     

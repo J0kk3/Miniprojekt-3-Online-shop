@@ -3,7 +3,7 @@ import { fetchTheShit } from "./fetch.js";
 
 
 function cartFunction(){
-    document.getElementById("hpOmen").innerHTML = "hallå ya africa, tell me haw ya doin"
+    document.getElementById("hpOmenQ").innerHTML = "3"
 }
-
+  
 export {cartFunction}
