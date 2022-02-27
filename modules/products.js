@@ -1,6 +1,7 @@
-//Fetchar upp infon till firebase
-function fetchUp() {
-
+import {fetchTheShit} from "./fetch.js"
+// //Fetchar upp infon till firebase
+// function fetchUp() {
+fetchTheShit()
     class gamingComputer {
         constructor(model, price, headText, infoText, img, quantity) {
             this.model = model;
@@ -10,37 +11,37 @@ function fetchUp() {
             this.img = img;
             this.quantity = quantity;
         }
-        fetchMyBiatchUp() {
-            console.log("fungerar nåt skit alls?")
+        // fetchMyBiatchUp() {
+        //     console.log("fungerar nåt skit alls?")
 
-            const uploadFetch = {
-                headText: this.headText,
-                img: this.img,
-                infoText: this.infoText,
-                model: this.model,
-                price: this.price,
-                quantity: this.quantity
-            }
+        //     const uploadFetch = {
+        //         headText: this.headText,
+        //         img: this.img,
+        //         infoText: this.infoText,
+        //         model: this.model,
+        //         price: this.price,
+        //         quantity: this.quantity
+        //     }
         
-            const headerObject = {
-                "Content-type": "application/json; charset=UTF-8"
-            }
+        //     const headerObject = {
+        //         "Content-type": "application/json; charset=UTF-8"
+        //     }
         
-            const init = {
-                method: "PATCH",
-                body: JSON.stringify(uploadFetch),
-                headers: headerObject
-            }
+        //     const init = {
+        //         method: "PATCH",
+        //         body: JSON.stringify(uploadFetch),
+        //         headers: headerObject
+        //     }
         
-            const url = "https://mproject3-onlineshop-default-rtdb.europe-west1.firebasedatabase.app/.json"
-            fetch(url, init)
-                .then(rr => rr.json())
-                .then(d => {
-                    console.log("vad händer?", d)
+        //     const url = "https://mproject3-onlineshop-default-rtdb.europe-west1.firebasedatabase.app/.json"
+        //     fetch(url, init)
+        //         .then(rr => rr.json())
+        //         .then(d => {
+        //             console.log("vad händer?", d)
                     
-                })
+        //         })
         
-        }
+        // }
     
     }
 
@@ -90,16 +91,16 @@ function fetchUp() {
         7
     );
 
-    hpOmen.fetchMyBiatchUp();
-    msiKatana.fetchMyBiatchUp();
-    msiGp.fetchMyBiatchUp();
-    lenovoIdeaPad.fetchMyBiatchUp();
-    AsusROG.fetchMyBiatchUp();
+//     hpOmen.fetchMyBiatchUp();
+//     msiKatana.fetchMyBiatchUp();
+//     msiGp.fetchMyBiatchUp();
+//     lenovoIdeaPad.fetchMyBiatchUp();
+//     AsusROG.fetchMyBiatchUp();
 
 
 
 
-}
+// }
 
 
 

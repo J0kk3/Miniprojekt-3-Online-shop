@@ -33,15 +33,15 @@
 //#endregion instructions
 //#region PLACEHOLDERREGION
 //Chain: main.js > fetch.js > product.js
-// import{fetchTheShit} from "./modules/fetch.js";
-// import { cartFunction } from "./modules/cart.js";
-import {fetchUp} from "./modules/products.js";
+import{fetchTheShit} from "./modules/fetch.js";
+import { cartFunction } from "./modules/cart.js";
+// import {fetchUp} from "./modules/products.js";
 
 // const knappfan = document.querySelector(".buttonz99");
 // knappfan.addEventListener("click", fetchUp())
 
-fetchUp()
-// fetchTheShit()
+// fetchUp()
+fetchTheShit()
 // const hpOmenBtn = document.querySelectorAll("button");
 
 // hpOmenBtn.addEventListener("click", function cartFunction(){
