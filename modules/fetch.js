@@ -18,8 +18,8 @@ function fetchTheShit() {
 
                 const headText = document.createElement("p");
                 div.appendChild(headText);
-                headText.innerText = d[i].headText;
-
+                headText.innerText = "!!!!!!!!!!Kommer från fetch.js!!!!!!!!! "+ d[i].headText;
+                
                 const infoText = document.createElement("p");
                 div.appendChild(infoText);
                 infoText.innerText = d[i].infoText;
@@ -42,7 +42,7 @@ function fetchTheShit() {
                 howMany.setAttribute("size", "6");
                 howMany.setAttribute("min", "0");
                 div.appendChild(howMany)
-                howMany.classList.add("WASSAA" + [i])
+                howMany.classList.add("wazzaaap" + [i])
 
                 const cartBtn = document.createElement("button");
                 const btnText = document.createTextNode("Lägg i varukorgen");
@@ -50,7 +50,7 @@ function fetchTheShit() {
                 div.appendChild(cartBtn);
                 cartBtn.setAttribute("id", "buttonz" + [i])
 
-                
+                console.log('kommer från fetch.js')
                 // const hpOmenBtn = document.querySelector("#buttonz0");
                 // hpOmenBtn.addEventListener("click", cartFunction);
 

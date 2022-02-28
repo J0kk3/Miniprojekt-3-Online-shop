@@ -35,6 +35,7 @@
 //Chain: main.js > fetch.js > product.js
 import{fetchTheShit} from "./modules/fetch.js";
 import { cartFunction } from "./modules/cart.js";
+import {gamingComputer} from "./modules/products.js"
 // import {fetchUp} from "./modules/products.js";
 
 // const knappfan = document.querySelector(".buttonz99");
@@ -42,6 +43,7 @@ import { cartFunction } from "./modules/cart.js";
 
 // fetchUp()
 fetchTheShit()
+gamingComputer
 // const hpOmenBtn = document.querySelectorAll("button");
 
 // hpOmenBtn.addEventListener("click", function cartFunction(){
