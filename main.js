@@ -39,4 +39,3 @@ fetchTheShit().then(d=>{
     console.log(d);
     cartFunction(d);
 } );
-
