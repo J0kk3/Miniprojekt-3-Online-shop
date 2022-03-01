@@ -43,6 +43,22 @@ function fetchTheShit()
                         const img = document.createElement("img");
                         div.appendChild(img);
                         img.src = productArray[i].img;
+                        // Input and buttons:
+                        const howMany = document.createElement("input");
+                        howMany.setAttribute("type", "number");
+                        howMany.setAttribute("value", "0");
+                        howMany.setAttribute("size", "6");
+                        howMany.setAttribute("min", "0");
+                        howMany.setAttribute("max", `${productArray[i].quantity}`)
+                        div.appendChild(howMany)
+                        howMany.classList.add("wazzaaap" + [i])
+                        //Buttons
+                        const cartBtn = document.createElement("button");
+                        const btnText = document.createTextNode("Lägg i varukorgen");
+                        cartBtn.appendChild(btnText);
+                        div.appendChild(cartBtn);
+                        cartBtn.setAttribute("id", "buttonz" + [i])
+        
                     }
                     // console.log(productArray);
 })};
