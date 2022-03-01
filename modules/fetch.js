@@ -23,18 +23,23 @@ function fetchTheShit()
                         //create the div-container for the products and append it to the .products-div
                         const div = document.createElement("div");
                         productsDiv.appendChild(div);
+                        //HeadText
                         const headText = document.createElement("p");
                         div.appendChild(headText);
                         headText.innerText = productArray[i].headText;
+                        //InfoText
                         const infoText = document.createElement("p");
                         div.appendChild(infoText);
                         infoText.innerText = productArray[i].infoText;
+                        //Price
                         const price = document.createElement("p");
                         div.appendChild(price);
                         price.innerText = `Pris: ${productArray[i].price}kr`;
+                        //Quantity
                         const quantity = document.createElement("p");
                         div.appendChild(quantity);
                         quantity.innerText = `Lagersaldo: ${productArray[i].quantity}st`;
+                        //Img
                         const img = document.createElement("img");
                         div.appendChild(img);
                         img.src = productArray[i].img;
