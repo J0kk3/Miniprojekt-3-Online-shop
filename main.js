@@ -34,4 +34,9 @@
 
 //Chain: main.js > fetch.js > product.js
 import{fetchTheShit} from "./modules/fetch.js";
+import{cartFunction} from "./modules/cart.js"
 fetchTheShit();
+
+
+const testaKnappen = document.getElementById("buttonz0");
+testaKnappen.addEventListener("click", cartFunction);
