@@ -33,6 +33,7 @@
 //#endregion instructions
 
 //Chain: main.js > fetch.js > product.js
+import { cartFunction } from "./modules/cart.js";
 import{fetchTheShit} from "./modules/fetch.js";
 import{cartFunction} from "./modules/cart.js"
 fetchTheShit();
