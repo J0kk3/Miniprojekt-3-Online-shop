@@ -39,7 +39,7 @@ function fetchTheShit()
                         div.appendChild(img);
                         img.src = productArray[i].img;
                     }
-                    console.log(productArray);
+                    // console.log(productArray);
 })};
 // fetchTheShit();
 export{fetchTheShit};
