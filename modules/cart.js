@@ -15,7 +15,7 @@ function cartFunction(productArray)
     {
         console.log('kanpp0')
         console.log(nrInput0);
-        productArray[0].quantity - nrInput0.value;
+        productArray[0].quantity - nrInput0;
     });
 }
 export {cartFunction}

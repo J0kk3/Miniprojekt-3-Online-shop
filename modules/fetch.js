@@ -50,9 +50,9 @@ async function fetchTheShit()
                 howMany.setAttribute("value", "0");
                 howMany.setAttribute("size", "6");
                 howMany.setAttribute("min", "0");
-                howMany.setAttribute("max", `${productArray[ i ].quantity}`)
-                div.appendChild(howMany)
-                howMany.classList.add("wazzaaap" + [ i ])
+                howMany.setAttribute("max", `${productArray[ i ].quantity}`);
+                div.appendChild(howMany);
+                howMany.id = ("wazzaaap" + [ i ]);
                 //Buttons
                 const cartBtn = document.createElement("button");
                 const btnText = document.createTextNode("Lägg i varukorgen");
