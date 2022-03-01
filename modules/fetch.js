@@ -23,6 +23,7 @@ function fetchTheShit()
                         //create the div-container for the products and append it to the .products-div
                         const div = document.createElement("div");
                         productsDiv.appendChild(div);
+                        div.className = `${gamingComputer.name+[i]}`;
                         //HeadText
                         const headText = document.createElement("p");
                         div.appendChild(headText);
