@@ -24,6 +24,18 @@ import { fetchTheShit } from "./fetch.js";
     
 // // }
 function testaSomFan(productArray){
+
+    
+    const hpQ = document.getElementById("hpOmenQ")
+    const msiKQ = document.getElementById("msiKatanaQ")
+    const msigpQ = document.getElementById("msiGpQ")
+    const lenovoQ = document.getElementById("lenovoIdeaPadQ")
+    const asusQ = document.getElementById("asusRogZQ")
+
+
+// document.getElementById("totalProductsQ").innerHTML = hpQ.value+msiKQ
+
+
     class bjCart{
         constructor (totalNr, thePrice){
         this.totalNr=totalNr,
@@ -32,10 +44,14 @@ function testaSomFan(productArray){
     
         myHP(){
             console.log(hpCart)
-        document.getElementById("hpOmenQ").innerHTML = this.totalNr
+        hpQ.innerHTML = this.totalNr
         document.getElementById("hpPrice").innerHTML = this.thePrice
 
-        console.log(hpCart.theName)
+        document.getElementById("totalProductsQ").innerHTML = hpKnappen.value,+msiKatKnappen.value
+
+        // +msiGPKnappen.value+lenovoKnappen.value+myAsusRogKnappen.value
+
+        console.log(typeof hpKnappen.value)
         };
         myMSIKatana(){
             console.log(msiKatanaCart)
@@ -74,7 +90,7 @@ function testaSomFan(productArray){
         hpKnappen.value,
         productArray[0].price*hpKnappen.value
     )
-
+    hpKnappen.value+msiKatKnappen.value+msiGPKnappen.value+lenovoKnappen.value+myAsusRogKnappen.value
     const msiKatanaCart = new bjCart(
         msiKatKnappen.value,
         productArray[1].price*msiKatKnappen.value
@@ -108,8 +124,13 @@ function testaSomFan(productArray){
 
     // // productArray[0].quantity - nrInput0.value;
     // // + * + `${productArray[ i ].quantity}`;;
-
 }
+
+
+
+
+
+
 function emptyMyShit(){
     alert("Nu tömmer du varukorgen")
     location.reload()
