@@ -59,8 +59,7 @@ function fetchTheShit()
                         cartBtn.appendChild(btnText);
                         div.appendChild(cartBtn);
                         //Id for buttons
-                        cartBtn.id = (`Btn${[i]}`);
-        
+                        cartBtn.id = (`btn${[i]}`);
                     }
                     // console.log(productArray);
 })};
