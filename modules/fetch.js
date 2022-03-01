@@ -22,6 +22,7 @@ function fetchTheShit()
                         );
                         //create the div-container for the products and append it to the .products-div
                         const div = document.createElement("div");
+                        div.className = `${gamingComputer.name+[i]}`;
                         productsDiv.appendChild(div);
                         const headText = document.createElement("p");
                         div.appendChild(headText);
@@ -39,7 +40,7 @@ function fetchTheShit()
                         div.appendChild(img);
                         img.src = productArray[i].img;
                     }
-                    // console.log(productArray);
+                    console.log(productArray);
 })};
 // fetchTheShit();
 export{fetchTheShit};
