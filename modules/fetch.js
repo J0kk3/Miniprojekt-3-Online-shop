@@ -58,10 +58,10 @@ function fetchTheShit()
                         const btnText = document.createTextNode("Lägg i varukorgen");
                         cartBtn.appendChild(btnText);
                         div.appendChild(cartBtn);
-                        cartBtn.setAttribute("id", "buttonz" + [i])
+                        //Id for buttons
+                        cartBtn.id = (`Btn${[i]}`);
         
                     }
                     // console.log(productArray);
 })};
-// fetchTheShit();
 export{fetchTheShit};
