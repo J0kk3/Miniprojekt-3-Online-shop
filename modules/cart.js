@@ -110,6 +110,15 @@ function testaSomFan(productArray){
     // // + * + `${productArray[ i ].quantity}`;;
 
 }
+function emptyMyShit(){
+    alert("Nu tömmer du varukorgen")
+    location.reload()
+}
+function buyMyShit(){
+    let visaCard = prompt("Nu köper du. Fyll i ditt VISAkorts uppgifter")
+    alert(`Tack! Ditt VISAkorts uppgifter är: ${visaCard}. Du får dina produkter inom 2-3 år`)
+    location.reload()
+}
 
 
-export {testaSomFan}
+export {testaSomFan, emptyMyShit, buyMyShit}
