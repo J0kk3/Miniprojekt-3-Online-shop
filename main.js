@@ -33,9 +33,25 @@
 //#endregion instructions
 
 //Chain: main.js > fetch.js > product.js
-import { cartFunction } from "./modules/cart.js";
+import { testaSomFan, emptyMyShit, buyMyShit } from "./modules/cart.js";
 import{fetchTheShit} from "./modules/fetch.js";
+
 fetchTheShit().then(d=>{
     console.log(d);
-    cartFunction(d);
+    // cartFunction(d);
+    for(let i=0; i<5; i++){
+    document.getElementById("btn"+[i]).addEventListener("click", ()=>{
+        testaSomFan(d);
+    });
+
+}
+document.getElementById("emptyallshit").addEventListener("click", ()=>{
+        emptyMyShit()
+})
+document.getElementById("buyitnow").addEventListener("click", ()=>{
+    buyMyShit()
+})
+
 } );
+
+
