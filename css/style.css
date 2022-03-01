@@ -50,11 +50,16 @@ nav a
 }
 
 .cart{
+    position: fixed;
+    right: 0;
     grid-row: 1/2;    
     grid-column: 2/3;
     font-weight: bolder;
     font-size: larger;
     text-align: right;
+    background-color: #3f4d5c;
+    opacity: 80%;
+
     }
     
     .compNr{
